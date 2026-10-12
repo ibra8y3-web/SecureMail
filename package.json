@@ -1,0 +1,14 @@
+{
+  "name": "securemail-webhook-server",
+  "version": "1.0.0",
+  "private": true,
+  "description": "SecureMail inbound email backend",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "firebase-admin": "^12.2.0"
+  }
+}
