@@ -1,0 +1,7 @@
+{
+  "version": 2,
+  "routes": [
+    { "src": "/api/inbound", "dest": "/api/inbound.js" },
+    { "src": "/(.*)", "dest": "/api/inbound.js" }
+  ]
+}
